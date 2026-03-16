@@ -7,6 +7,7 @@ namespace GroundHogDayApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://groundhog-day.com/api/v1";
+        
         public GroundHogDay()
         {
             httpClient = new HttpClient();
